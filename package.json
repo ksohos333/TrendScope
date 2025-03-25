@@ -1,0 +1,59 @@
+{
+  "name": "ai-news-website",
+  "version": "1.0.0",
+  "description": "An AI-driven news platform that uses Bayesian probability to synthesize non-biased news articles, find connections between global events, and make market predictions using fractal market theory.",
+  "main": "test-integration.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "clean": "rm -rf .next out",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "vercel-build": "next build",
+    "analyze": "ANALYZE=true next build"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.2",
+    "@turf/turf": "^7.2.0",
+    "@vis.gl/react-google-maps": "^1.5.2",
+    "clsx": "^2.1.1",
+    "critters": "^0.0.23",
+    "d3-geo": "^3.1.1",
+    "d3-scale": "^4.0.2",
+    "d3-selection": "^2.0.0",
+    "d3-zoom": "^3.0.0",
+    "lucide-react": "^0.483.0",
+    "mapbox-gl": "^3.10.0",
+    "next": "^15.2.3",
+    "next-themes": "^0.4.6",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-map-gl": "^8.0.1",
+    "react-simple-maps": "^3.0.0",
+    "tailwind-merge": "^3.0.2",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.0",
+    "@types/d3-scale": "^4.0.9",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/react-map-gl": "^6.1.7",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "5.8.2"
+  }
+}

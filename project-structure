@@ -1,0 +1,21 @@
+src/
+├── app/
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── layout/
+│   │   ├── Header.tsx       // Navigation and top-level UI
+│   │   ├── Sidebar.tsx     // Main navigation
+│   │   └── Footer.tsx      // Footer component
+│   ├── analysis/
+│   │   ├── NewsAnalyzer.tsx
+│   │   ├── SentimentGraph.tsx
+│   │   └── TrendAnalysis.tsx
+│   ├── dashboard/
+│   │   ├── MainDashboard.tsx
+│   │   ├── AnalyticsCard.tsx
+│   │   └── StatisticsGrid.tsx
+│   └── ui/                 // Reusable UI components
+│       ├── Button.tsx
+│       ├── Card.tsx
+│       └── Input.tsx 
